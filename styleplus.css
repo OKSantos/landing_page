@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    border-left: 50px solid black;
+    border-right: 50px solid black;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    height: 30px;
+    width: auto;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 16px 32px;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    gap: 16px 16px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.left-header-content p {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+
+.left-header-content div {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-header-content,.right-header-content {
+    width: 50%;
+    padding: 16px;
+}
+
+.right-header-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.right-header-content img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.uppermiddle {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.uppermidtitle {
+    padding: 32;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    gap: 52;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.imagestack {
+    max-width: 200px;
+}
+
+.lowermiddle {
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 30px 200px;
+}
+
+.lowermiddle p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.lowermiddle div {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: end;
+}
+
+.base {
+    display: flex;
+    position: relative;
+    padding: 50px 150px;
+    background-color: #F9FAF8;
+}
+
+.mainbox {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding-left: 50px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.left {
+    position: absolute;
+    z-index: 3;
+    left: 200px;
+    top: 110px;
+    color: #F9FAF8;
+    font-size: 14px;
+}
+
+.right {
+    position: absolute;
+    z-index: 3;
+    right: 250px;
+    top: 100px;
+}
+
+.right button {
+    border-color: white;
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    text-align: center;
+}
